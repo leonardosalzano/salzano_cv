@@ -1,0 +1,179 @@
+:root{
+    --blanco: #ffffff; 
+    --oscuro: #212121;
+    --primario: #ffC107;
+    --secundario:#0097A7;
+    --gris:#757575;
+    --grisClaro:#DFE9F3;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 0.67em 0;
+}
+h2{
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffffff;
+}
+
+/*header*/
+
+.titulo{
+    font-family: 'Gloock', serif ;
+    margin-left: 1rem;
+}
+
+.subtitulo{
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 3px;
+}
+
+.navegacion-principal {
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 15%;
+    font-weight: 10;
+    word-spacing:2rem
+}
+
+/*Iconos de redes sociales*/
+
+  .icon-bar a {
+    display:inline;
+    padding: 6px;
+    font-size: 9px;
+
+  }
+
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+/*Foto portada*/
+
+.portada {
+    background-image: url(../img/foto_portada.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 620px;
+}
+
+  /*Párrafo*/
+
+p{
+    font-family: 'Cormorant Garamond', serif;
+    color: #ffffff;
+    position: absolute;
+    margin: 5rem 80rem 10rem 4rem;
+    font-size: 2rem;
+    animation: fadeIn 2s
+}
+
+/*Globales*/
+
+html {
+    font-size: 62.7%;
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+
+}
+
+body {
+  margin: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+  }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+   }
+
+   /*Listas*/
+
+ul {
+    font-family: 'Cormorant Garamond', serif;
+    color: #ffffff;
+    position: absolute;
+    font-size: 16px;
+    animation: fadeIn 2s;
+    margin: auto;
+    line-height: 1.7rem;
+  }
+
+.title_list{
+    font-weight: bold;
+}
+
+  /*Formularios*/
+
+form {
+    font-family: 'Cormorant Garamond', serif;
+    color: #ffffff;
+    position:absolute;
+    margin: 12rem 20rem 15rem 3rem;
+    font-size: 16px;
+    animation: fadeIn 2s
+  }
+
+  /*queries*/
+
+
+   @media screen and (max-width: 1093px) {
+    .navegacion-principal {
+      margin-left: 1rem;
+      display:block;
+    }
+
+  }
+
+  @media screen and (max-width: 361px) {
+    .subtitulo{
+      margin:1rem;
+      display:block;
+  }
+  }
+
+  @media screen and (max-width: 1462px) {
+    .p{
+      margin: 5rem 10rem 10rem 4rem;
+ }
+
+  }
+
+  @media screen and (max-width: 504px) {
+    .p{
+      margin: 5rem 3em auto 2rem;
+    }
+   
+     }
+
+  @media screen and (min-width: 536px) {
+    ul {
+      line-height: 2.7rem;
+    }
+   
+    }
+ 
+
+
